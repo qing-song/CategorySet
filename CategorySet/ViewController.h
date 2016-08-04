@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "QSCategory.h"
 
 @interface ViewController : UIViewController
 

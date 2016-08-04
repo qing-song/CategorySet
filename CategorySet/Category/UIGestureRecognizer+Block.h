@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-typedef void(^QSGestureBlock)(id qs_gestureRecognizer);
+typedef void(^QSGestureBlock)(id gestureRecognizerBlock);
 
 @interface UIGestureRecognizer (Block)
 
