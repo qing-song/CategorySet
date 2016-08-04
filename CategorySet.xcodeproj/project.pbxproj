@@ -13,9 +13,9 @@
 		032DB5821D51ECB0005F7E0E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DB5801D51ECB0005F7E0E /* Main.storyboard */; };
 		032DB5841D51ECB0005F7E0E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 032DB5831D51ECB0005F7E0E /* Assets.xcassets */; };
 		032DB5871D51ECB0005F7E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DB5851D51ECB0005F7E0E /* LaunchScreen.storyboard */; };
-		032DB5911D51EE7E005F7E0E /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DB5901D51EE7E005F7E0E /* UIGestureRecognizer+Block.m */; };
-		032DB5941D51F8E9005F7E0E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DB5931D51F8E9005F7E0E /* UIView+Extension.m */; };
-		034C733B1D53290100008970 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C733A1D53290100008970 /* UIButton+Block.m */; };
+		034C73431D5330F500008970 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C733E1D5330F500008970 /* UIButton+Block.m */; };
+		034C73441D5330F500008970 /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C73401D5330F500008970 /* UIGestureRecognizer+Block.m */; };
+		034C73451D5330F500008970 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C73421D5330F500008970 /* UIView+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		032DB5831D51ECB0005F7E0E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		032DB5861D51ECB0005F7E0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		032DB5881D51ECB0005F7E0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		032DB58F1D51EE7E005F7E0E /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
-		032DB5901D51EE7E005F7E0E /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
-		032DB5921D51F8E9005F7E0E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		032DB5931D51F8E9005F7E0E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		034C73391D53290100008970 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
-		034C733A1D53290100008970 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		034C733D1D5330F500008970 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		034C733E1D5330F500008970 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
+		034C733F1D5330F500008970 /* UIGestureRecognizer+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+Block.h"; sourceTree = "<group>"; };
+		034C73401D5330F500008970 /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
+		034C73411D5330F500008970 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		034C73421D5330F500008970 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		032DB5761D51ECB0005F7E0E /* CategorySet */ = {
 			isa = PBXGroup;
 			children = (
-				032DB58E1D51ED6E005F7E0E /* Category */,
+				034C733C1D5330F500008970 /* Category */,
 				032DB57A1D51ECB0005F7E0E /* AppDelegate.h */,
 				032DB57B1D51ECB0005F7E0E /* AppDelegate.m */,
 				032DB57D1D51ECB0005F7E0E /* ViewController.h */,
@@ -89,15 +89,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		032DB58E1D51ED6E005F7E0E /* Category */ = {
+		034C733C1D5330F500008970 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				032DB58F1D51EE7E005F7E0E /* UIGestureRecognizer+Block.h */,
-				032DB5901D51EE7E005F7E0E /* UIGestureRecognizer+Block.m */,
-				032DB5921D51F8E9005F7E0E /* UIView+Extension.h */,
-				032DB5931D51F8E9005F7E0E /* UIView+Extension.m */,
-				034C73391D53290100008970 /* UIButton+Block.h */,
-				034C733A1D53290100008970 /* UIButton+Block.m */,
+				034C733D1D5330F500008970 /* UIButton+Block.h */,
+				034C733E1D5330F500008970 /* UIButton+Block.m */,
+				034C733F1D5330F500008970 /* UIGestureRecognizer+Block.h */,
+				034C73401D5330F500008970 /* UIGestureRecognizer+Block.m */,
+				034C73411D5330F500008970 /* UIView+Extension.h */,
+				034C73421D5330F500008970 /* UIView+Extension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -172,12 +172,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				032DB5941D51F8E9005F7E0E /* UIView+Extension.m in Sources */,
+				034C73451D5330F500008970 /* UIView+Extension.m in Sources */,
 				032DB57F1D51ECB0005F7E0E /* ViewController.m in Sources */,
-				032DB5911D51EE7E005F7E0E /* UIGestureRecognizer+Block.m in Sources */,
-				034C733B1D53290100008970 /* UIButton+Block.m in Sources */,
 				032DB57C1D51ECB0005F7E0E /* AppDelegate.m in Sources */,
 				032DB5791D51ECB0005F7E0E /* main.m in Sources */,
+				034C73431D5330F500008970 /* UIButton+Block.m in Sources */,
+				034C73441D5330F500008970 /* UIGestureRecognizer+Block.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
