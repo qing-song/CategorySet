@@ -15,6 +15,7 @@
 		032DB5871D51ECB0005F7E0E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 032DB5851D51ECB0005F7E0E /* LaunchScreen.storyboard */; };
 		032DB5911D51EE7E005F7E0E /* UIGestureRecognizer+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DB5901D51EE7E005F7E0E /* UIGestureRecognizer+Block.m */; };
 		032DB5941D51F8E9005F7E0E /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 032DB5931D51F8E9005F7E0E /* UIView+Extension.m */; };
+		034C733B1D53290100008970 /* UIButton+Block.m in Sources */ = {isa = PBXBuildFile; fileRef = 034C733A1D53290100008970 /* UIButton+Block.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		032DB5901D51EE7E005F7E0E /* UIGestureRecognizer+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+Block.m"; sourceTree = "<group>"; };
 		032DB5921D51F8E9005F7E0E /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		032DB5931D51F8E9005F7E0E /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		034C73391D53290100008970 /* UIButton+Block.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Block.h"; sourceTree = "<group>"; };
+		034C733A1D53290100008970 /* UIButton+Block.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Block.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				032DB5901D51EE7E005F7E0E /* UIGestureRecognizer+Block.m */,
 				032DB5921D51F8E9005F7E0E /* UIView+Extension.h */,
 				032DB5931D51F8E9005F7E0E /* UIView+Extension.m */,
+				034C73391D53290100008970 /* UIButton+Block.h */,
+				034C733A1D53290100008970 /* UIButton+Block.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -170,6 +175,7 @@
 				032DB5941D51F8E9005F7E0E /* UIView+Extension.m in Sources */,
 				032DB57F1D51ECB0005F7E0E /* ViewController.m in Sources */,
 				032DB5911D51EE7E005F7E0E /* UIGestureRecognizer+Block.m in Sources */,
+				034C733B1D53290100008970 /* UIButton+Block.m in Sources */,
 				032DB57C1D51ECB0005F7E0E /* AppDelegate.m in Sources */,
 				032DB5791D51ECB0005F7E0E /* main.m in Sources */,
 			);
@@ -322,6 +328,7 @@
 				032DB58D1D51ECB0005F7E0E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
