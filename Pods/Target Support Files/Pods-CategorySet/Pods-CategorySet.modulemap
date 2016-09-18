@@ -1,0 +1,6 @@
+framework module Pods_CategorySet {
+  umbrella header "Pods-CategorySet-umbrella.h"
+
+  export *
+  module * { export * }
+}
