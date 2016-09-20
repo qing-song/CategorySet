@@ -10,4 +10,6 @@
 
 @interface UIView (ExtendTouchRect)
 
+@property (nonatomic, assign) UIEdgeInsets touchExtendInset;
+
 @end

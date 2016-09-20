@@ -20,16 +20,32 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     @weakify(self)
+    self.testButton.touchExtendInset = UIEdgeInsetsMake(-100, -100, -100, -100);
+
     [self.testButton touchUpInsideWithBlock:^(id sender) {
        
         [weak_self randomColor];
     }];
     
+    UIView *touchView = [[UIView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    [touchView setBackgroundColor:[UIColor redColor]];
+    touchView.touchExtendInset = UIEdgeInsetsMake(-100, -100, -100, -100);
+    [self.view addSubview:touchView];
+    
+    
     UITapGestureRecognizer *tapGestureRecognizer = [UITapGestureRecognizer gestureRecognizerWithActionBlock:^(id gestureRecognizerBlock) {
         
         [weak_self randomColor];
     }];
-    [self.view addGestureRecognizer:tapGestureRecognizer];
+    [touchView addGestureRecognizer:tapGestureRecognizer];
+    
+    
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Test" message:@"hello world" completion:^(UIAlertView *alertview, NSInteger buttonIndex) {
+        
+    } cancelButtonTitle:@"取消" otherButtonTitles:@"斯国一", nil];
+    
+    [alertView show];
+    
 }
 
 - (void)randomColor

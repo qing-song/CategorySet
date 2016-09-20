@@ -15,6 +15,13 @@
 #import <QSCategory/UIGestureRecognizer+Block.h>
 #import <QSCategory/UIView+Extension.h>
 #import <QSCategory/NSString+Extension.h>
+#import <QSCategory/UIView+ExtendTouchRect>
+
+// Barefoot
+#import <QSCategory/UIImage+Barefoot.h>
+#import <QSCategory/UIAlertView+Barefoot.h>
+#import <QSCategory/UITableView+Barefoot>
+#import <QSCategory/UIView+Barefoot.h>
 
 #else
 
@@ -23,5 +30,12 @@
 #import "UIButton+Block.h"
 #import "UIGestureRecognizer+Block.h"
 #import "UIView+Extension.h"
+#import "UIView+ExtendTouchRect.h"
+
+// Barefoot
+#import "UIAlertView+Barefoot.h"
+#import "UIImage+Barefoot.h"
+#import "UITableView+Barefoot.h"
+#import "UIView+Barefoot.h"
 
 #endif
