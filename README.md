@@ -7,4 +7,11 @@ YYKit：https://github.com/ibireme/YYKit
 
 KittenYang：https://gist.github.com/KittenYang
 
+### 发现
+
+UIAlertView show的时候要先后显示2个Controller均为私有Api
+- UIApplicationRotationFollowingController
+- UIAlertController
+PS：iOS 10.1下测试的
+
 
