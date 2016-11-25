@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		030620631DE7DBE7008559D5 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 030620621DE7DBE7008559D5 /* NSObject+Swizzling.m */; };
+		030620661DE7E282008559D5 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 030620651DE7E282008559D5 /* UIViewController+Swizzling.m */; };
 		0311C5A11D8EB00F00CC28DE /* UIAlertView+Barefoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311C59A1D8EB00F00CC28DE /* UIAlertView+Barefoot.m */; };
 		0311C5A21D8EB00F00CC28DE /* UIImage+Barefoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311C59C1D8EB00F00CC28DE /* UIImage+Barefoot.m */; };
 		0311C5A31D8EB00F00CC28DE /* UITableView+Barefoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311C59E1D8EB00F00CC28DE /* UITableView+Barefoot.m */; };
@@ -27,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		030620611DE7DBE6008559D5 /* NSObject+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Swizzling.h"; sourceTree = "<group>"; };
+		030620621DE7DBE7008559D5 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
+		030620641DE7E282008559D5 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
+		030620651DE7E282008559D5 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
 		0311C5991D8EB00F00CC28DE /* UIAlertView+Barefoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Barefoot.h"; sourceTree = "<group>"; };
 		0311C59A1D8EB00F00CC28DE /* UIAlertView+Barefoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Barefoot.m"; sourceTree = "<group>"; };
 		0311C59B1D8EB00F00CC28DE /* UIImage+Barefoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barefoot.h"; sourceTree = "<group>"; };
@@ -75,6 +81,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		030620601DE7D934008559D5 /* Method Swizzling */ = {
+			isa = PBXGroup;
+			children = (
+				030620611DE7DBE6008559D5 /* NSObject+Swizzling.h */,
+				030620621DE7DBE7008559D5 /* NSObject+Swizzling.m */,
+				030620641DE7E282008559D5 /* UIViewController+Swizzling.h */,
+				030620651DE7E282008559D5 /* UIViewController+Swizzling.m */,
+			);
+			name = "Method Swizzling";
+			sourceTree = "<group>";
+		};
 		0311C5981D8EAD8300CC28DE /* Barefoot */ = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +154,7 @@
 		034C733C1D5330F500008970 /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				030620601DE7D934008559D5 /* Method Swizzling */,
 				0311C5981D8EAD8300CC28DE /* Barefoot */,
 				034C73491D533A2600008970 /* QSCategory.h */,
 				034C734A1D53458F00008970 /* QSMacro.h */,
@@ -205,6 +223,7 @@
 				TargetAttributes = {
 					032DB5731D51ECB0005F7E0E = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GG8NZVPWNG;
 					};
 				};
 			};
@@ -295,10 +314,12 @@
 				034C734D1D534E8900008970 /* UIView+ExtendTouchRect.m in Sources */,
 				0311C5A11D8EB00F00CC28DE /* UIAlertView+Barefoot.m in Sources */,
 				034C73451D5330F500008970 /* UIView+Extension.m in Sources */,
+				030620631DE7DBE7008559D5 /* NSObject+Swizzling.m in Sources */,
 				0311C5A21D8EB00F00CC28DE /* UIImage+Barefoot.m in Sources */,
 				0311C5A61D8EB07200CC28DE /* README.md in Sources */,
 				032DB57F1D51ECB0005F7E0E /* ViewController.m in Sources */,
 				032DB57C1D51ECB0005F7E0E /* AppDelegate.m in Sources */,
+				030620661DE7E282008559D5 /* UIViewController+Swizzling.m in Sources */,
 				032DB5791D51ECB0005F7E0E /* main.m in Sources */,
 				034C73431D5330F500008970 /* UIButton+Block.m in Sources */,
 				0311C5A31D8EB00F00CC28DE /* UITableView+Barefoot.m in Sources */,
@@ -418,7 +439,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = USYHV2GTW7;
+				DEVELOPMENT_TEAM = GG8NZVPWNG;
 				INFOPLIST_FILE = CategorySet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -433,7 +454,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = USYHV2GTW7;
+				DEVELOPMENT_TEAM = GG8NZVPWNG;
 				INFOPLIST_FILE = CategorySet/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

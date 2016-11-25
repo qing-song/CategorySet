@@ -34,16 +34,21 @@
     
     
     UITapGestureRecognizer *tapGestureRecognizer = [UITapGestureRecognizer gestureRecognizerWithActionBlock:^(id gestureRecognizerBlock) {
-        
+//
         [weak_self randomColor];
     }];
     [touchView addGestureRecognizer:tapGestureRecognizer];
     
-    
+    /*
+     UIAlertView show的时候要先后显示2个Controller均为私有Api
+     - UIApplicationRotationFollowingController
+     - UIAlertController
+     PS：iOS 10.1下测试的
+     */
     UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:@"Test" message:@"hello world" completion:^(UIAlertView *alertview, NSInteger buttonIndex) {
         
     } cancelButtonTitle:@"取消" otherButtonTitles:@"斯国一", nil];
-    
+
     [alertView show];
     
 }
