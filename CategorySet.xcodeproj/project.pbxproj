@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		030620631DE7DBE7008559D5 /* NSObject+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 030620621DE7DBE7008559D5 /* NSObject+Swizzling.m */; };
 		030620661DE7E282008559D5 /* UIViewController+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 030620651DE7E282008559D5 /* UIViewController+Swizzling.m */; };
+		0306206C1DE81B2E008559D5 /* UIButton+Swizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0306206B1DE81B2E008559D5 /* UIButton+Swizzling.m */; };
 		0311C5A11D8EB00F00CC28DE /* UIAlertView+Barefoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311C59A1D8EB00F00CC28DE /* UIAlertView+Barefoot.m */; };
 		0311C5A21D8EB00F00CC28DE /* UIImage+Barefoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311C59C1D8EB00F00CC28DE /* UIImage+Barefoot.m */; };
 		0311C5A31D8EB00F00CC28DE /* UITableView+Barefoot.m in Sources */ = {isa = PBXBuildFile; fileRef = 0311C59E1D8EB00F00CC28DE /* UITableView+Barefoot.m */; };
@@ -33,6 +34,8 @@
 		030620621DE7DBE7008559D5 /* NSObject+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Swizzling.m"; sourceTree = "<group>"; };
 		030620641DE7E282008559D5 /* UIViewController+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Swizzling.h"; sourceTree = "<group>"; };
 		030620651DE7E282008559D5 /* UIViewController+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Swizzling.m"; sourceTree = "<group>"; };
+		0306206A1DE81B2E008559D5 /* UIButton+Swizzling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Swizzling.h"; sourceTree = "<group>"; };
+		0306206B1DE81B2E008559D5 /* UIButton+Swizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Swizzling.m"; sourceTree = "<group>"; };
 		0311C5991D8EB00F00CC28DE /* UIAlertView+Barefoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Barefoot.h"; sourceTree = "<group>"; };
 		0311C59A1D8EB00F00CC28DE /* UIAlertView+Barefoot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Barefoot.m"; sourceTree = "<group>"; };
 		0311C59B1D8EB00F00CC28DE /* UIImage+Barefoot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Barefoot.h"; sourceTree = "<group>"; };
@@ -88,6 +91,8 @@
 				030620621DE7DBE7008559D5 /* NSObject+Swizzling.m */,
 				030620641DE7E282008559D5 /* UIViewController+Swizzling.h */,
 				030620651DE7E282008559D5 /* UIViewController+Swizzling.m */,
+				0306206A1DE81B2E008559D5 /* UIButton+Swizzling.h */,
+				0306206B1DE81B2E008559D5 /* UIButton+Swizzling.m */,
 			);
 			name = "Method Swizzling";
 			sourceTree = "<group>";
@@ -316,6 +321,7 @@
 				034C73451D5330F500008970 /* UIView+Extension.m in Sources */,
 				030620631DE7DBE7008559D5 /* NSObject+Swizzling.m in Sources */,
 				0311C5A21D8EB00F00CC28DE /* UIImage+Barefoot.m in Sources */,
+				0306206C1DE81B2E008559D5 /* UIButton+Swizzling.m in Sources */,
 				0311C5A61D8EB07200CC28DE /* README.md in Sources */,
 				032DB57F1D51ECB0005F7E0E /* ViewController.m in Sources */,
 				032DB57C1D51ECB0005F7E0E /* AppDelegate.m in Sources */,
