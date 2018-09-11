@@ -7,7 +7,7 @@ YYKit：https://github.com/ibireme/YYKit
 
 KittenYang：https://gist.github.com/KittenYang
 
-### 防止按钮
+### 按钮
 #import "UIButton+Swizzling.h"
 
 ### 发现
